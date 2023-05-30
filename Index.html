@@ -21,6 +21,24 @@
     </header>
 
     <nav>
+        <title>Горизонтальный список</title>
+        <style>
+            ul.hr {
+                /* Обнуляем значение отступов и полей */
+                margin: 0;
+                padding: 0;
+            }
+        
+            ul.hr li {
+                display: inline-block;
+                /* Строчно-блочный элемент */
+                border: 1px solid #000;
+                /* Рамка вокруг текста */
+                padding: 3px;
+                /* Поля вокруг текста */
+            }
+        </style>
+        
         <ul class="hr">
             <li><a href="#">Home</a></li>
             <li><a href="#">War in Ukraine</a></li>
