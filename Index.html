@@ -464,20 +464,24 @@ tfoot {
         <caption>Data about the planets of our solar system (Planetary facts taken from <a
             href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
         </caption>
+        <colgroup>
+            <col span="2">
+            <col span="border: 2px solid black">
+            <col span="9">
+        </colgroup>
         <thead>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <th scope="colgroup">Name</th>
-                <th scope="colgroup">Mass (10<sup>24</sup>kg)</th>
-                <th scope="colgroup">Diameter (km)</th>
-                <th scope="colgroup">Density (kg/m<sup>3</sup>)</th> 
-                <th scope="colgroup">Gravity (m/s<sup>2</sup>)</th>
-                <th scope="colgroup">Length of day (hours)</th>
-                <th scope="colgroup">Distance from Sun (10<sup>6</sup>km)</th>
-                <th scope="colgroup">Mean temperature (°C)</th>
-                <th scope="colgroup">Number of moons</th>
-                <th scope="colgroup">Notes</th>
+                <td colspan="2"></td>
+                <th scope="col">Name</th>
+                <th scope="col">Mass (10<sup>24</sup>kg)</th>
+                <th scope="col">Diameter (km)</th>
+                <th scope="col">Density (kg/m<sup>3</sup>)</th> 
+                <th scope="col">Gravity (m/s<sup>2</sup>)</th>
+                <th scope="col">Length of day (hours)</th>
+                <th scope="col">Distance from Sun (10<sup>6</sup>km)</th>
+                <th scope="col">Mean temperature (°C)</th>
+                <th scope="col">Number of moons</th>
+                <th scope="col">Notes</th>
             </tr>
         </thead>
         <tbody>
@@ -531,8 +535,8 @@ tfoot {
                 <td>The red planet</td>
             </tr>
             <tr>
-                <th scope="rowgroup" rowspan="4">Jovian planets</th>
-                <th scope="row" rowspan="2">Gas giants</th>
+                <th rowspan="4" scope="rowgroup">Jovian planets</th>
+                <th rowspan="2" scope="row">Gas giants</th>
                 <th scope="row">Jupiter</th>
                 <td>1898</td>
                 <td>142.984</td>
@@ -557,7 +561,7 @@ tfoot {
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <th scope="row" rowspan="2">Ice giants</th>
+                <th rowspan="2" scope="row">Ice giants</th>
                 <th scope="row">Uranus</th>
                 <td>1898</td>
                 <td>142.984</td>
@@ -582,7 +586,7 @@ tfoot {
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <th scope="rowgroup" colspan="2">Dwarf planets</th>
+                <th colspan="2" scope="rowgroup">Dwarf planets</th>
                 <th scope="row">Pluto</th>
                 <td>1898</td>
                 <td>142.984</td>
