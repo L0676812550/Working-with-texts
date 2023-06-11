@@ -737,87 +737,43 @@ tfoot {
         <hr>
 <!--Practice- My feedback form-->
 <div>
+    <form>
     <h1>My feedback form</h1>
     <ul>
-        <li>
-            <form>Name: <input type="text" name="name"/></form></li>
-        <li>
-            <form>Email: <input type="text" name="Email"/></form>
-        </li>
-        <li>
-            <form>Password: <input type="password" name="password"/></form>
-        </li>
+        <li>Name: <input type="text" name="name"/></li>
+        <li>Email: <input type="text" name="Email"/></li>
+        <li>Password: <input type="password" name="password"/></li>
         <br>
         <li>Please check all the emotions that apply to you:</li>
             <ul>
-                <li>
-                    <form>Angry<input type="checkbox" name="Angry" value="on"></form>
-                </li>
-                <li>
-                    <form>Sad<input type="checkbox" name="Sad" value="on"></form>
-                </li>
-                <li>
-                    <form>Happy<input type="checkbox" name="happy" value="on"></form>
-                </li>
-                <li>
-                    <form>Ambivalent<input type="checkbox" name="Ambivalent" value="on"></form>
+                <li>Angry<input type="checkbox" name="Angry" value="on"></li>
+                <li>Sad<input type="checkbox" name="Sad" value="on"></li>
+                <li>Happy<input type="checkbox" name="happy" value="on"></li>
+                <li>Ambivalent<input type="checkbox" name="Ambivalent" value="on">
                 </li>
             </ul>
         <li>How satisfied were you with our service?</li>
             <ul>
-                <li>
-                    <form>
-                        Very satisfied<input type="radio" name="subject" value="Very_satisfied">
-                    </form>
-                </li>
-                <li>
-                    <form>
-                        Satisfied<input type="radio" name="subject" value="satisfied">
-                    </form>
-                </li>
-                <li>
-                    <form>
-                        Didn't care<input type="radio" name="subject" value="didn't_care">
-                    </form>
-                </li>
-                <li>
-                    <form>
-                        Dissatisfied<input type="radio" name="subject" value="Dissatisfied">
-                    </form>
-                </li>
-                <li>
-                    <form>
-                        Very Dissatisfied<input type="radio" name="subject" value="very_Dissatisfied">
-                    </form>
-                </li>
+                <li>Very satisfied<input type="radio" name="subject" value="Very_satisfied"></li>
+                <li>Satisfied<input type="radio" name="subject" value="satisfied"></li>
+                <li>Didn't care<input type="radio" name="subject" value="didn't_care"></li>
+                <li>Dissatisfied<input type="radio" name="subject" value="Dissatisfied"></li>
+                <li>Very Dissatisfied<input type="radio" name="subject" value="very_Dissatisfied"></li>
             </ul>
-        <li>
-            <form>
-                Further comments: <textarea rows="3" cols="25" name="Further_comments"></textarea>
-            </form>
+        <li>Further comments: <textarea rows="3" cols="25" name="Further_comments"></textarea> </li>
+        <li>Bio photo:<input type="file" name="photo" multiple accept="image/*"/>
+                <input type="submit" value="Chose..."/></li>
+        <li>Location visited: 
+            <select name="dropdown">
+                <option value="Select Location" selected>Select Location</option>
+                <option value="Ukraine">Ukraine</option>
+                 <option value="Poland">Poland</option>
+            </select>
         </li>
-        <li>
-            <form>
-                Bio photo:<input type="file" name="photo" multiple accept="image/*"/>
-                <input type="submit" value="Chose..."/>
-            </form>
-        </li>
-        <li>
-            <form>
-                Location visited: <select name="dropdown">
-                    <option value="Select Location" selected>Select Location</option>
-                    <option value="Ukraine">Ukraine</option>
-                    <option value="Poland">Poland</option>
-                </select>
-            </form>
-        </li>
-        <li>
-            <form>
-                <input type="submit" name="submit" value="submit"/>
-            </form>
-        </li>
+        <li><input type="submit" name="submit" value="submit"/></li>
     </ul>
 </div>
+</form>
 <hr>
 <!--End of site-->
     <footer>
